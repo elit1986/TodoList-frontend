@@ -10,7 +10,6 @@ TodoList is a simple, yet powerful task management application designed to help 
 ## Technologies Used
 - React.js
 - HTML/CSS
-- JavaScript
 - TypeScript
 - Node.js
 - MongoDB
