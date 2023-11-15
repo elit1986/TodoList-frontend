@@ -1,27 +1,39 @@
-# React + TypeScript + Vite
+# TodoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![TodoList](https://github.com/elit1986/TodoList/blob/main/todo.jpg)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
+TodoList is a simple, yet powerful task management application designed to help you keep track of your daily tasks. It allows you to add, delete, and view tasks in a clean and intuitive interface.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
+- React.js
+- HTML/CSS
+- JavaScript
+- TypeScript
+- Node.js
+- MongoDB
+- Restful API
+- Axios
 
-- Configure the top-level `parserOptions` property like this:
+## Installation and Setup
+To run this project, install it locally using npm:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+```bash
+$ git clone [Your repository URL]
+$ cd TodoList/frontend
+$ npm i
+$ npm run dev
+$ cd TodoList/backend
+$ npm i
+$ npm nodemon index.js
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Usage
+Once the application starts, you can:
+- Add a new task by entering the task title and clicking 'Add'.
+- Delete a task by clicking the 'Delete' button next to it.
+
+
+
